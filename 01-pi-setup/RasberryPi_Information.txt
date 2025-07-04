@@ -1,0 +1,54 @@
+The Raspberry PI is a small, affordable, single-board computer developed by the Raspberry PI Foundation.You can plug it into a monitor or TV and use a keyboard and mouse - just like a regular PC.
+
+********************************************* Common Uses **********************************************
+
+Educational & Learning - Programming (Python, C++), Linux, Robotics, Electronics, and system design.
+
+DIY Projects - Home automation, weather station, smart mirrors, custom gadgets.
+
+Media Center - Run media players like Kodi to stream videos and music.
+
+Security & Networking - Create firewalls, VPNs, network scanners, or security camera systems.
+
+IoT & Embedded Systems - Control sensors, motors, database, or cloud server (like Nextcloud). 
+
+
+
+********************************************* Power Supply *********************************************
+
+Operating Voltage - 5V DC (via USB-C or GPIO pin 2/4).
+Recommended Current - 3.0A (minimum), 3.5A (recommended for Pi 5).
+Power Connector: USB-C(Pi 4 and 5).
+GPIO Power Pins: Pin2 & 4 (5V), Pin 6 & 9 (GND).
+
+
+***************************** Processor & Memory (Raspberry Pi 5 Example)*******************************
+
+CPU - Quad-core ARM Cortex-A76 @ 2.4Ghz.
+GPU - VideoCore VII (supports dual 4K displays @ 60HZ).
+RAM - 4GB or 8GB LPDDR4X.
+
+
+******************************************** GPIO & PCIe ***********************************************
+
+40-pin GPIO header (same as Pi 4 - backward compatible).
+PCIe 2.0 x1 lane: Use for NVMe SSD, AI accelerators, etc. (requires HAT or adapter).
+
+
+***************************************** Storage Options **********************************************
+
+microSD card: Supported.
+USB boot: Fully supported.
+NVMe SSD: directly possible via PCIe adapter (no USB bottleneck).
+
+
+**************************************** I/O and Ports *************************************************
+
+2x USB 3.0 + 2x USB 2.0.
+2x Micro-HDMI (4k@60hz each).
+Camera & Display connectors: New smaller FPC type.
+Real-Time Clock (RTC): With battery header.
+Gigabit Ethernet with Poe+ support (via seperate HAT).
+
+
+
